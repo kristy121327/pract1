@@ -31,8 +31,8 @@ int main()
     ifstream ist("in.txt");
     vector <Nedv> nedvs;
 
-    vvod(ist, nedvs);
-    vivod(nedvs);
+    input(ist, nedvs);
+    output(nedvs);
 
     return 0;
 }
