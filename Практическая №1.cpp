@@ -10,7 +10,7 @@
 using namespace std;
 
 
-void vvod(ifstream& ist, vector <Nedv>& nedvs) {
+void input(ifstream& ist, vector <Nedv>& nedvs) {
     while (false == ist.eof()){
         Nedv nedv;
         ist >> nedv;
@@ -18,7 +18,7 @@ void vvod(ifstream& ist, vector <Nedv>& nedvs) {
     }
 }
 
-void vivod(vector <Nedv> nedvs) {
+void output(vector <Nedv> nedvs) {
     for (Nedv nedv : nedvs){
         cout << nedv;
     }
